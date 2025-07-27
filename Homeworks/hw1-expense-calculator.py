@@ -1,7 +1,7 @@
 """
 Personal Finance Calculator
-Student: [Your Name]
-Date: [Today's Date]
+Student: [sirikasamkit thiemthong]
+Date: [25/07/2025]
 Purpose: Calculate monthly budget and savings
 """
 #รับค่า
