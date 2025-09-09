@@ -82,25 +82,25 @@ return dictionary ที่มี vowels และ consonants counts
 
 def count_vowels_consonants(text):
     # Your Problem 5 solution
-    text.lower(text)
-    text.replace(" ", "")
-    text.replace("0", "")
-    text.replace("1", "")
-    text.replace("2", "")
-    text.replace("3", "")
-    text.replace("4", "")
-    text.replace("5", "")
-    text.replace("6", "")
-    text.replace("7", "")
-    text.replace("8", "")
-    text.replace("9", "")
+    text = text.lower()
+    text =text.replace(" ", "")
+    text =text.replace("0", "")
+    text =text.replace("1", "")
+    text =text.replace("2", "")
+    text =text.replace("3", "")
+    text =text.replace("4", "")
+    text =text.replace("5", "")
+    text =text.replace("6", "")
+    text =text.replace("7", "")
+    text =text.replace("8", "")
+    text =text.replace("9", "")
 
     vowels = text.count('a') + text.count('e') + text.count('i') + text.count('o') + text.count('u')
-    conconants = len(text) - vowels
+    consonants = len(text) - vowels
 
     return{
         "vowels": vowels,
-        "conconants": conconants
+        "consonants": consonants
     }
 
 # =============================================================================
